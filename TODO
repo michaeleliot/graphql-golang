@@ -1,0 +1,26 @@
+Polling
+* Setup Graphql server on golang https://www.howtographql.com/graphql-go/0-introduction/
+    * Deploy this to AWS
+    * Create database with three big tables: Polls, Options, Response
+    * Setup Auth0 Permissions for database
+* Setup Graphql connection in Nextjs
+    * Follow this tutorial for connecting grpql and nextjs https://hasura.io/learn/graphql/nextjs-fullstack-serverless/apollo-client/
+* Setup Web App
+    * Add Auth0 authentication login/signup
+    * Setup create page for adding a poll
+    * Setup a homepage for retrieving all polls
+    * Add ability to vote in poll
+    * Add detail page for individual Poll
+    * Make sure permissioned polls work
+    * Create different polls (fpp, rank choice)
+
+Blockchain
+* Setup Blockchain connection
+    * Use truffle suite for setting up/testing
+    * Use Solidity for contract creation
+    * Create smart contract for sending result of poll
+    * Setup sending results of poll to Blockchain
+* Setup Polls on Blockchain
+    * Create smart contract for polls on blockchain
+    * Setup pushing poll to blockchain and votes recorded via blockchain
+    * Consider setting up with other blockchains like nano
